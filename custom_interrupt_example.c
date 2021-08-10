@@ -1,5 +1,6 @@
-/******Heavily modified verison of Xilinx's example code**********************/
+/******This is modified verison of Xilinx's example code**********************/
 /********* https://www.xilinx.com/support/answers/60837.html *****************/
+/************ can be used with custom ip mb_helper3***************************/
 
 #include "mb_helper3.h"
 #include "xparameters.h"
