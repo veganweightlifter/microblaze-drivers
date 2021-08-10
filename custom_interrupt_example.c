@@ -1,6 +1,6 @@
 /******Heavily modified verison of Xilinx's example code**********************/
-/*** <https://github.com/Xilinx/embeddedsw/blob/master/XilinxProcessorIPLib>**/
-/***Original is here <>/drivers/intc/examples/xintc_low_level_example.c*******/
+/********* https://www.xilinx.com/support/answers/60837.html *****************/
+
 #include "mb_helper3.h"
 #include "xparameters.h"
 #include "xstatus.h"
