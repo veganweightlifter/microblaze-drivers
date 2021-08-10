@@ -6,9 +6,10 @@ Vivado 2020.1 Custom_AXI_IP  issue- Platform won't build a generic axi driver au
 
 Solution- https://forums.xilinx.com/t5/High-Level-Synthesis-HLS/Create-IP-AXI4-Lite/td-p/1139280
 In Vitis, select your platform and open the Makefile(s) below and make the edits listed below.
-i) platform/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/YOUR_IP/src/Makefile
-ii) platform/hw/drivers/YOUR_IP/src/Makefile
-iii) platform/tempdsa/drivers/YOUR_IP/src/Makefile
+
+1. platform/microblaze_0/standalone_domain/bsp/microblaze_0/libsrc/YOUR_IP/src/Makefile
+2. platform/hw/drivers/YOUR_IP/src/Makefile
+3. platform/tempdsa/drivers/YOUR_IP/src/Makefile
 
 
 
