@@ -15,16 +15,22 @@ In Vitis, select your platform and open the Makefile(s) below and make the edits
 
 Replace :
 libs:
-echo "Compiling YOUR_IP"
+
+
+'echo "Compiling YOUR_IP"
 $(COMPILER) $(COMPILER_FLAGS) $(EXTRA_COMPILER_FLAGS) $(INCLUDES) $(LIBSOURCES)
 $(ARCHIVER) -r ${RELEASEDIR}/${LIB} ${OUT}
-make clean
+make clean'
+
+
 By :
-OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c)))
+
+
+'OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c)))
 libs:
 echo "Compiling YOUR_IP"
 $(COMPILER) $(COMPILER_FLAGS) $(EXTRA_COMPILER_FLAGS) $(INCLUDES) $(LIBSOURCES)
-$(ARCHIVER) -r ${RELEASEDIR}/${LIB} ${OBJECTS}
+$(ARCHIVER) -r ${RELEASEDIR}/${LIB} ${OBJECTS}'
 
 
 
