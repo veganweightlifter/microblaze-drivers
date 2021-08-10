@@ -41,4 +41,4 @@ Do a make clean and build your platform.
 
 
 
-mb_helper3.c - A simple driver for vhdl_misc\mb_helper3 based on- https://www.xilinx.com/support/answers/60837.html 
+custom_interrupt_example.c - A simple driver for vhdl_misc\mb_helper3 based on- https://www.xilinx.com/support/answers/60837.html 
